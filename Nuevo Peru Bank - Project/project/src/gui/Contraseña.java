@@ -133,7 +133,7 @@ public class Contraseña extends javax.swing.JFrame {
                  ps.setString(2, dni);
                  ps.executeUpdate();
                  JOptionPane.showMessageDialog(null, "Registro exitoso", "Nuevo Perú Bank",1);
-                 System.exit(0);
+                 this.dispose();
              }  
              catch(SQLException e){
                  JOptionPane.showMessageDialog(null, "No se completó el registro", "Nuevo Perú Bank - Error",JOptionPane.ERROR_MESSAGE);

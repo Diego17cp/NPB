@@ -468,6 +468,7 @@ public class RegistroCliente extends javax.swing.JFrame {
        String direccion=(txtDirecCli.getText());
        String telf=txtTelfCli.getText();
        String correo_e=(txtCorreoCli.getText());
+       String numCu=numCu();
        if(nombres.isEmpty()|| apellidos.isEmpty() ||dni.isEmpty()||direccion.isEmpty()||correo_e.isEmpty()||f_nac==null){ // Verificamos que no hayan campos vacíos, puede suceder un error por la conversion anterior con los Date y Calendar, solo ingrese una fecha y todo funcionará bien
            JOptionPane.showMessageDialog(null, "Por favor, complete todos los campos","Nuevo Perú Bank - Advertencia",JOptionPane.WARNING_MESSAGE);
        }
@@ -522,6 +523,8 @@ public class RegistroCliente extends javax.swing.JFrame {
                    + "\n  Dirección del Cliente:"+ "   "+direccion +"\n"
                    + "\n  Teléfono:\t\t" + ((telf !=null) ? "   "+telf : "No proporcionado") +"\n" // Operador terniario para saber si telefono no se convirtio en null, si el telefono esta vacio deberia arrojar el mensaje pero no logro hallar una solucion
                    + "\n  Correo:\t\t" + "   "+correo_e+"\n"
+                   + "\n  Num. Cuenta: "
+                   + "\n  "+numCu+"\n"
                    + "  -----------------------------------------------\n"
                    + "\n   Recuerde que para ingresar a su cuenta deberá\n"
                    + "      poner su Nro. de Dni y su Contraseña que\n"
@@ -538,7 +541,7 @@ public class RegistroCliente extends javax.swing.JFrame {
                Date fAc=new Date(); // Obtenemos la fecha actual para registrarla como fecha de creacion
                // Guardamos en variables las id y numero de cuenta que generamos anteriormente
                String idCuenta=generarIDCu(); 
-               String numCu=numCu();
+               
                String idCliente=generarIDCli();
                try(Connection conn = ConexionOracle.getConnection()){ // Intentamos conectarnos a la DB, usamos la conexion como argumento ya que de esta forma se abre y cierra la conexion de forma automatica
                    String sql="INSERT INTO cliente (idcliente, nombres, apellidos, f_nac, dni, direccion, telf, correo_e, idempleado, contraseña) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"; // Creamos una variable con la sentencia sql a realizar, aunque tambien podriamos poner la sentencia como String de forma directa en el argumento a continuacion
