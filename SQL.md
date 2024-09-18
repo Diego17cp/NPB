@@ -63,3 +63,7 @@
 > ### Entre las comillas simples puede ingresar los valores que desee, solo son para poder acceder al sistema xd / Between the single quotation marks you can enter the values you want, they are only for accessing the system xd
 > INSERT INTO empleado(idempleado, apellidos, nombres, f_nac, dni, direccion, telf, correo_e, usuario, contraseña) 
 > VALUES ('','','', TO_DATE('', 'YYYY-MM-DD'),'','','','','',''); </code>
+
+<div width="100%">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&color=2196F3&reversal=false&fontColor=038987&fontAlign=48&fontAlignY=39&fontSize=84&animation=fadeIn&section=footer">
+</div>
