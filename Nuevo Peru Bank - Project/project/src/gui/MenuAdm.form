@@ -231,6 +231,9 @@
                   <Image iconType="3" name="/resources/money-bill-solid.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar Cuenta"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuEliAccActionPerformed"/>
@@ -247,6 +250,9 @@
               <Color blue="b1" green="b7" red="18" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Transferencias"/>
+            <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+              <Color id="Hand Cursor"/>
+            </Property>
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="menuDepoUno">
@@ -267,6 +273,9 @@
                   <Image iconType="3" name="/resources/hand-holding-dollar-solid.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Depositar a su cuenta"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuDepoUnoActionPerformed"/>
@@ -290,6 +299,9 @@
                   <Image iconType="3" name="/resources/money-bill-transfer-solid.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Retirar"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuRetiroActionPerformed"/>
@@ -367,7 +379,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" min="-2" pref="192" max="-2" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="241" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -397,7 +409,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="0" y="20" width="150" height="150"/>
+              <AbsoluteConstraints x="310" y="20" width="150" height="150"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -413,7 +425,7 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="180" y="50" width="-1" height="-1"/>
+              <AbsoluteConstraints x="120" y="160" width="-1" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>

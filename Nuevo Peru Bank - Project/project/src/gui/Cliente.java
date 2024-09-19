@@ -67,19 +67,19 @@ public class Cliente extends javax.swing.JFrame {
         panelSaludo.add(labelSaludo);
         labelSaludo.setBounds(30, 50, 580, 52);
 
-        labelLlama.setIcon(new javax.swing.ImageIcon("C:\\Users\\Diego17\\Downloads\\llama.png")); // NOI18N
+        labelLlama.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/llama.png"))); // NOI18N
         panelSaludo.add(labelLlama);
-        labelLlama.setBounds(570, -10, 140, 180);
+        labelLlama.setBounds(580, 0, 140, 170);
 
         labelMainCuenta.add(panelSaludo);
-        panelSaludo.setBounds(160, 0, 720, 130);
+        panelSaludo.setBounds(160, 0, 720, 160);
 
         panelLogo.setBackground(new java.awt.Color(226, 167, 84));
         panelLogo.setLayout(null);
 
-        labelLogo.setIcon(new javax.swing.ImageIcon("C:\\Users\\Diego17\\Downloads\\logo2.png")); // NOI18N
+        labelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/logo2.png"))); // NOI18N
         panelLogo.add(labelLogo);
-        labelLogo.setBounds(-10, 20, 160, 120);
+        labelLogo.setBounds(10, 0, 160, 140);
 
         btnVolver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/green.png"))); // NOI18N
         btnVolver.setBorder(null);
@@ -154,7 +154,7 @@ public class Cliente extends javax.swing.JFrame {
         labelQuest.setForeground(new java.awt.Color(13, 82, 84));
         labelQuest.setText("¿Qué deseas hacer hoy?");
         panelElec.add(labelQuest);
-        labelQuest.setBounds(30, 10, 467, 52);
+        labelQuest.setBounds(40, 0, 450, 52);
 
         btnVerTr.setBackground(new java.awt.Color(13, 82, 84));
         btnVerTr.setFont(new java.awt.Font("Leelawadee UI", 1, 18)); // NOI18N
@@ -176,7 +176,7 @@ public class Cliente extends javax.swing.JFrame {
             }
         });
         panelElec.add(btnVerTr);
-        btnVerTr.setBounds(100, 200, 270, 50);
+        btnVerTr.setBounds(100, 150, 270, 50);
 
         btnDepos2.setBackground(new java.awt.Color(13, 82, 84));
         btnDepos2.setFont(new java.awt.Font("Leelawadee UI", 1, 18)); // NOI18N
@@ -198,7 +198,7 @@ public class Cliente extends javax.swing.JFrame {
             }
         });
         panelElec.add(btnDepos2);
-        btnDepos2.setBounds(100, 120, 270, 50);
+        btnDepos2.setBounds(100, 70, 270, 50);
 
         btnExitCli.setBackground(new java.awt.Color(25, 88, 87));
         btnExitCli.setFont(new java.awt.Font("MS Reference Sans Serif", 0, 18)); // NOI18N
@@ -221,10 +221,10 @@ public class Cliente extends javax.swing.JFrame {
             }
         });
         panelElec.add(btnExitCli);
-        btnExitCli.setBounds(100, 280, 270, 50);
+        btnExitCli.setBounds(100, 230, 270, 50);
 
         labelMainCuenta.add(panelElec);
-        panelElec.setBounds(380, 150, 480, 380);
+        panelElec.setBounds(380, 170, 480, 330);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -234,7 +234,7 @@ public class Cliente extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(labelMainCuenta, javax.swing.GroupLayout.DEFAULT_SIZE, 560, Short.MAX_VALUE)
+            .addComponent(labelMainCuenta, javax.swing.GroupLayout.DEFAULT_SIZE, 522, Short.MAX_VALUE)
         );
 
         pack();

@@ -48,12 +48,12 @@ public class MenuAdm extends javax.swing.JFrame {
         labelLogo.setFont(new java.awt.Font("Stencil", 1, 100)); // NOI18N
         labelLogo.setForeground(new java.awt.Color(109, 30, 30));
         labelLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/logo2.png"))); // NOI18N
-        jPanel1.add(labelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 150, 150));
+        jPanel1.add(labelLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 150, 150));
 
         jLabel1.setFont(new java.awt.Font("Stencil", 1, 70)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(13, 82, 84));
         jLabel1.setText("Administrador");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 50, -1, -1));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
 
         btnVolver.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/green.png"))); // NOI18N
         btnVolver.setBorder(null);
@@ -178,6 +178,7 @@ public class MenuAdm extends javax.swing.JFrame {
         menuEliAcc.setForeground(new java.awt.Color(24, 183, 177));
         menuEliAcc.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/money-bill-solid.png"))); // NOI18N
         menuEliAcc.setText("Eliminar Cuenta");
+        menuEliAcc.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuEliAcc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuEliAccActionPerformed(evt);
@@ -190,6 +191,7 @@ public class MenuAdm extends javax.swing.JFrame {
         jMenu5.setBackground(new java.awt.Color(13, 82, 84));
         jMenu5.setForeground(new java.awt.Color(24, 183, 177));
         jMenu5.setText("Transferencias");
+        jMenu5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
         menuDepoUno.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_1, java.awt.event.InputEvent.CTRL_DOWN_MASK));
         menuDepoUno.setBackground(new java.awt.Color(13, 82, 84));
@@ -197,6 +199,7 @@ public class MenuAdm extends javax.swing.JFrame {
         menuDepoUno.setForeground(new java.awt.Color(24, 183, 177));
         menuDepoUno.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/hand-holding-dollar-solid.png"))); // NOI18N
         menuDepoUno.setText("Depositar a su cuenta");
+        menuDepoUno.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuDepoUno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuDepoUnoActionPerformed(evt);
@@ -210,6 +213,7 @@ public class MenuAdm extends javax.swing.JFrame {
         menuRetiro.setForeground(new java.awt.Color(24, 183, 177));
         menuRetiro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/money-bill-transfer-solid.png"))); // NOI18N
         menuRetiro.setText("Retirar");
+        menuRetiro.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         menuRetiro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuRetiroActionPerformed(evt);
@@ -249,7 +253,7 @@ public class MenuAdm extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 241, Short.MAX_VALUE)
         );
 
         pack();

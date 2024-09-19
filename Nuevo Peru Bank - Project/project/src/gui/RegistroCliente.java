@@ -142,49 +142,49 @@ public class RegistroCliente extends javax.swing.JFrame {
         labelTipoCuenta.setForeground(new java.awt.Color(109, 30, 30));
         labelTipoCuenta.setText("Tipo de Cuenta:");
         panelRegistroEmp.add(labelTipoCuenta);
-        labelTipoCuenta.setBounds(40, 10, 169, 23);
+        labelTipoCuenta.setBounds(40, 10, 200, 23);
 
         labelNomCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelNomCli.setForeground(new java.awt.Color(109, 30, 30));
         labelNomCli.setText("Nombres:");
         panelRegistroEmp.add(labelNomCli);
-        labelNomCli.setBounds(40, 200, 129, 23);
+        labelNomCli.setBounds(40, 200, 160, 23);
 
         labelApeCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelApeCli.setForeground(new java.awt.Color(109, 30, 30));
         labelApeCli.setText("Apellidos:");
         panelRegistroEmp.add(labelApeCli);
-        labelApeCli.setBounds(40, 290, 129, 23);
+        labelApeCli.setBounds(40, 290, 170, 23);
 
         labelFNacCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelFNacCli.setForeground(new java.awt.Color(109, 30, 30));
         labelFNacCli.setText("Fecha de Nacimiento:");
         panelRegistroEmp.add(labelFNacCli);
-        labelFNacCli.setBounds(370, 10, 184, 23);
+        labelFNacCli.setBounds(370, 10, 230, 23);
 
         labelDNICli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelDNICli.setForeground(new java.awt.Color(109, 30, 30));
         labelDNICli.setText("DNI:");
         panelRegistroEmp.add(labelDNICli);
-        labelDNICli.setBounds(40, 100, 38, 23);
+        labelDNICli.setBounds(40, 100, 80, 23);
 
         labelDirecCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelDirecCli.setForeground(new java.awt.Color(109, 30, 30));
         labelDirecCli.setText("Dirección:");
         panelRegistroEmp.add(labelDirecCli);
-        labelDirecCli.setBounds(370, 100, 86, 23);
+        labelDirecCli.setBounds(370, 100, 200, 23);
 
         labelTelfCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelTelfCli.setForeground(new java.awt.Color(109, 30, 30));
         labelTelfCli.setText("Teléfono:");
         panelRegistroEmp.add(labelTelfCli);
-        labelTelfCli.setBounds(370, 200, 81, 23);
+        labelTelfCli.setBounds(370, 200, 160, 23);
 
         labelCorreoCli.setFont(new java.awt.Font("Leelawadee", 1, 18)); // NOI18N
         labelCorreoCli.setForeground(new java.awt.Color(109, 30, 30));
         labelCorreoCli.setText("Correo Electrónico:");
         panelRegistroEmp.add(labelCorreoCli);
-        labelCorreoCli.setBounds(370, 290, 163, 23);
+        labelCorreoCli.setBounds(370, 290, 250, 23);
 
         txtNomCli.setBackground(new java.awt.Color(239, 200, 137));
         txtNomCli.setFont(new java.awt.Font("Leelawadee", 1, 24)); // NOI18N
@@ -368,10 +368,10 @@ public class RegistroCliente extends javax.swing.JFrame {
 
         panelBoleta.setBackground(new java.awt.Color(226, 167, 84));
 
-        txtareaBoleta.setBackground(new java.awt.Color(57, 57, 57));
+        txtareaBoleta.setBackground(new java.awt.Color(239, 200, 137));
         txtareaBoleta.setColumns(20);
         txtareaBoleta.setFont(new java.awt.Font("Courier New", 0, 12)); // NOI18N
-        txtareaBoleta.setForeground(new java.awt.Color(226, 221, 216));
+        txtareaBoleta.setForeground(new java.awt.Color(13, 82, 84));
         txtareaBoleta.setRows(5);
         jScrollPane1.setViewportView(txtareaBoleta);
 
